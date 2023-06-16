@@ -2,18 +2,18 @@
   "stats": {
     "suites": 6,
     "tests": 5,
-    "passes": 4,
+    "passes": 5,
     "pending": 0,
-    "failures": 1,
-    "start": "2023-06-16T20:57:28.442Z",
-    "end": "2023-06-16T20:57:31.304Z",
-    "duration": 2862
+    "failures": 0,
+    "start": "2023-06-16T21:18:32.365Z",
+    "end": "2023-06-16T21:18:35.130Z",
+    "duration": 2765
   },
   "tests": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -34,43 +34,25 @@
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "unsuccessfully tries to reassign the least favorite customer",
       "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 11,
+      "duration": 25,
       "currentRetry": 0,
-      "err": {
-        "message": "expected [Function: changeLeastFavoriteCustomer] to throw an error",
-        "showDiff": true,
-        "expected": null,
-        "stack": "AssertionError: expected [Function: changeLeastFavoriteCustomer] to throw an error\n    at Context.<anonymous> (test/indexTest.js:37:51)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "unsuccessfully tries to reassign the least favorite customer",
-      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
-      "duration": 11,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected [Function: changeLeastFavoriteCustomer] to throw an error",
-        "showDiff": true,
-        "expected": null,
-        "stack": "AssertionError: expected [Function: changeLeastFavoriteCustomer] to throw an error\n    at Context.<anonymous> (test/indexTest.js:37:51)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns the customerName",
       "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
-      "duration": 3,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -91,7 +73,14 @@
     {
       "title": "overwrites the best customer",
       "fullTitle": "Fix the Scope overwriteBestCustomer() overwrites the best customer",
-      "duration": 1,
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "unsuccessfully tries to reassign the least favorite customer",
+      "fullTitle": "Fix the Scope changeLeastFavoriteCustomer() unsuccessfully tries to reassign the least favorite customer",
+      "duration": 25,
       "currentRetry": 0,
       "err": {}
     }
